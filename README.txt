@@ -1,15 +1,20 @@
-# How to Run
+# MERN Dictionary App with Auto-Correction
 
-## Backend
-1. cd backend
-2. npm install
-3. npm start
+A simple, responsive MERN stack-based dictionary app that:
+- Uses a preloaded English dictionary file
+- Checks word spelling
+- Provides nearest word matches
+- Generates histograms based on word length and starting letter
+- Stores searched word history using local storage
 
-Backend server will run at http://localhost:5000
+---
 
-## Frontend
-1. cd frontend
-2. npm install
-3. npm start
+## Features
 
-Frontend app will open at http://localhost:3000
+1. **Spell Checker** — Check if a word is correctly spelled
+2. **Auto-correction** — Suggest nearest matches if the word is incorrect
+3. **Histogram Charts** — View charts based on:
+   - Word length
+   - Starting letter
+4. **Local Storage** — Stores recent searches on your browser
+5. **Responsive UI** — Clean React-based user interface.
